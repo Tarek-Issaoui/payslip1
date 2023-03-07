@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div id="but">
+        <button id="payslip" style = "position:relative;left:10px ; top:-5px " class="button-63" role="button">paycheck</button> 
+          <button id="jobs"  style ="position:relative; left:667px; top:-70px " class="button-63" role="button">check jobs</button>
+      </div>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">                                <!-- this is yassin's work-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job checker</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <link rel="stylesheet" href="payslip.css">
+</head>
+<body>
+    <select id="checking">
+        <option value='Software Engineer'>Software Engineer</option>
+        <option value="Product Manager">Product Manager</option>
+        <option value="Graphic Designer">Graphic designer</option>
+        <option value="Data Analyst">Data Analyst</option>
+        <option value="Marketing Manager">Professor</option>
+        <option value="Sales Representative">Sales Representative</option> 
+        <option value="Project Manager">Project Manager</option>
+        <option value="Human Resources Manager">Human Resources Manager</option>
+        <option value="Accountant">Accountant</option>
+        <option value="UX Designer">UX Designer </option>
+        <option value="Financial Analyst">Financial Analyst</option>
+        <option value="Web Developer">Web Developer</option>
+        <option value="Operations Manager">Operations Manager</option>
+        <option value="Customer Service Representative">Customer Service Representative</option>  <!-- this is yassin's work-->
+        <option value="IT Manager">IT Manager</option>
+        <option value="Network Administrator">Network Administrator</option>
+        <option value="Content Writer"> Content Writer</option>
+        <option value="Art Director"> Art Director</option>
+        <option value="Mechanical Engineer"> Mechanical Engineer</option>
+        <option value="Social Media Manager"> Social Media Manager</option>
+        <option value="Executive Assistant"> Executive Assistant</option>
+        <option value="Data Scientist"> Data Scientist</option>
+        <option value="Digital Marketing Manager"> Digital Marketing Manager</option>
+        <option value="IT Support Specialist"> IT Support Specialist</option>
+        <option value="Artificial Intelligence Engineer"> Artificial Intelligence Engineer</option>
+        <option value="Business Development Manager"> Business Development Manager</option>
+        <option value="Technical Writer"> Technical Writer</option>
+        <option value="Account Manager"> Account Manager</option>
+        <option value="Account Manager"> Account Manager</option>
+    </select>
+    <button id="check">CHECK JOB</button>
+    <h1 id="intro"></h1>
+    <h2>Job requirements</h2>
+    <div id="requirements">
+        <ul>
+            <li id="one"></li>
+            <li id="two"></li>
+            <li id="three"></li>
+            <li id="four"></li>                           <!-- this is yassin's work-->
+            <li id="five"></li>
+        </ul>
+    </div>
+   
+    <h2 id="average">Average salary</h2>
+    <div>
+        <p id="salary" ></p>
+<div>
+
+    </div>
+
+    <a id="link">check the job near you</a>
+</div>
+   
+    <div id="div"></div>
+    <p id="p2"></p>
+    <script type="text/javascript" src="payslip.js"></script>
+    <script src="jobsData.js"></script>                                                      <!-- this is yassin's work-->
+    <script type="text/javascript">
+        document.getElementById("jobs").onclick = function () {
+            location.href = "jobCheck.html";                                         
+        };
+    </script>
+    <script type="text/javascript">
+        document.getElementById("payslip").onclick = function () {
+            location.href = "payslip2.html";
+        };
+    </script>
+    <h2 id="description">Job description</h2>
+</body>
+</html>

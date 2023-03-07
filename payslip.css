@@ -1,0 +1,359 @@
+
+.center{
+    margin: auto;
+    position: absolute;
+    left: 450px;
+    padding-top:10px;
+    border: 000px ;
+}
+
+
+p{
+   
+    margin: 0;
+    position: absolute;
+    left: 10px;
+   
+    padding-top: 10px;  
+}
+
+
+.button-63 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 20px 20px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  width:49%;
+  left: 0px
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+div{
+    padding-top: 100px;
+}
+p{
+    padding-bottom: 0px;   
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+    border: #FFFFFF;
+}
+body{
+    background-image: url("https://images4.newscred.com/Zz1kNmFkYmFmNzhlNGIxMWViYTU1ZDFmYjg0ZWI5MTc4Zg==");
+}
+h1{
+    color:white ;
+    font-size: 50px;
+}
+img{
+    width: 700px;
+    border: 0;
+  border-radius: 50px;
+  position:relative; left:270px
+}
+p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+#one{
+    color: #ff00f2;
+    font-size: 25px;
+ }
+ #two{
+     color: #ff00f2;
+     font-size: 25px;
+  }
+  #three{
+     color: #ff00f2;
+     font-size: 25px;
+  }
+  #four{
+     color: #ff00f2;
+     font-size: 25px;
+  }
+  #five{
+     color: #ff00f2;
+     font-size: 25px;
+  }
+ 
+ 
+  a{
+     padding-top: 100px;
+  }
+
+  #intro{
+    font-size: 30px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background: #EEE;
+    border:1px solid #CCC;
+    padding: 10px;
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    opacity: 0.8;
+    border-radius: 15px;
+    color: #ff00f2;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+#requirements{
+
+    font-size: 30px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background: #EEE;
+    border:1px solid #CCC;
+    padding: 10px;
+    position: absolute;
+    top: 370px;
+    left: 010px;
+    opacity: 0.8;
+    border-radius: 15px;
+    color: #262336;
+    
+  }
+#average{
+    position: absolute;
+    top: 700px;
+    left: 000px;
+}
+
+#salary{
+    position: absolute;
+    top: 650px;
+    left: 50px;  
+}
+
+#link{
+    position: absolute;
+    top: 870px;
+    left: 5px;
+    padding-bottom: 10%;
+    color:aliceblue;
+}
+
+#salary{
+    color:aliceblue;
+    position: absolute;
+    top: 850px;
+    left: 0px;
+    padding-bottom: 0%;
+    
+}
+#description{
+    color:aliceblue;
+    position: absolute;
+    top: 260px;
+    left: 700px;
+}
+
+
+
+#check{
+
+    align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #b80de3 50%,#00DDEB);
+  border: 0;
+  border-radius: 308px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 10px 10px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  width:10%;
+  left: 0px;
+  position: absolute;
+    top: 230px;
+    left: 240px;
+}
+ 
+#checking{
+    
+       
+        background-color: rgb(216, 10, 223);
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 99;
+      }
+
+
+
+
+      
+    
+    .box{
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        width: 500px;
+        background: #EEE;
+        border:1px solid #CCC;
+        padding: 10px;
+        position: absolute;
+        top: 100px;
+        left: 200px;
+        opacity: 0.8;
+        border-radius: 15px;
+    }
+    .result{
+        width: 500px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        background: #EEE;
+        border:1px solid #CCC;
+        padding: 10px;
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        opacity: 0.8;
+        border-radius: 15px;
+        display: none;
+    }
+    .summary{
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        width: 500px;
+        height:200px;
+        background: #EEE;
+        border:1px solid #CCC;
+        padding: 10px;
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        border-radius: 15px;
+        opacity:0.8;
+    
+    }
+    #salairB #cnss #sImpo #cssolidarity #sNet{
+        display: block;
+    }
+    .newbox{
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        width: 500px;
+        height:300px;
+        background: #EEE;
+        border:1px solid #CCC;
+        padding: 10px;
+        position: absolute;
+        top: 100px;
+        left: 800px;
+        opacity: 0.8;
+        border-radius: 15px;
+    }
+    .showCareer{
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        width: 500px;
+        height:300px;
+        background: #EEE;
+        border:1px solid #CCC;
+        padding: 10px;
+        position: absolute;
+        top: 100px;
+        left: 500px;
+        border-radius:15px;
+    }
+    
+    
+    #calculate {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        background-color:rgb(118, 87, 160);
+    
+        border-radius: 5px;
+    }
+    
+    #result{
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        background-color: rgb(118, 87, 160);
+        border-radius: 5px;
+    }
+    #salairB{
+       
+    top: 17px;
+    left: 140px;
+color:#262336;
+font-size: 15px;
+    }   
+    #cnss{
+        top: 35px;
+        left: 165px;
+    color:#262336;
+    font-size: 15px;
+        }   
+   #sImpo{
+    top: 55px;
+    left: 160px;
+color:#262336;
+font-size: 15px;
+    }   
+   #cssolidarity{
+    top: 75px;
+    left: 250px;
+color:#262336;
+font-size: 15px;
+      
+   }
+   #sNet{
+    top: 93px;
+    left: 140px;
+color:#262336;
+font-size: 15px;
+    }   
+   
+    #para{
+    color:#262336;
+    font-size: 16px;
+    }
+   #resi{
+    font-size: 15px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background: #EEE;
+    border:1px solid #CCC;
+    padding: 10px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    opacity: 0.8;
+    border-radius: 15px;
+   color: black
+   }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                  <!-- this is tarek's work-->
+    <title>paycheck</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <link rel="stylesheet" href="payslip.css">
+</head>
+<body >
+    
+    <div class="box">
+        <label for="brutSale">Gross Wages:</label>                          <!-- this is tarek's work-->
+        <input type="number" id="brutsale" name="brutSale"><br><br>
+        <button id="calculate">Calculate</button>
+        
+    </div>
+    <div class="newbox">
+        <label for="brutSale">Salary per Day:</label>
+        <input type="number" id="salaryPerDay" name="salaryPerDay"><br><br>
+        <label for="brutSale">Days Worked:</label>
+        <input type="number" id="daysWorked" name="daysWorked"><br><br>
+        <label for="brutSale">Extra Hours days:</label>                                  <!-- this is tarek's work-->
+        <input type="number" id="extraHours" name="extraHours"><br><br>
+        <label for="brutSale">Sunday Works:</label>
+        <input type="number" id="sundayWorks" name="sundayWorks"><br><br>
+        <button id="result">Calculate</button>
+        
+            <h3 id="trois">Result:</h3>
+            <h4 class="resultSalBrut"></h4>
+       
+        
+    </div>
+    <div class="result">
+        <ul>
+            <li>Gross Wages:<p id="salairB"></p></li>      <!-- this is tarek's work-->
+            <li>Detention CNSS:<p id="cnss"></p></li>
+            <li>Taxable wages:<p id="sImpo"></p></li>
+            <li>Solidarity Social Contribution:<p id="cssolidarity"></p></li>
+            <li>Net salary:<p id="sNet"></p></li>
+        </ul>
+    </div>
+    <div class="summary">
+        <h3>Summary</h3>
+        <p id="para" >If you make 500,000DT a year living in Tunisia, you will be taxed 201,980DT <br> means that your net pay will be 298,020DT per year, or 24,835DT per month.<br> Your average tax rate is 40.4% and your marginal tax rate is 41.3%. This marginal tax rate means that your immediate additional income will <br>be taxed at this rate. For instance, an increase of 100DT in your salary<br> will be taxed 41.28DT, hence, your net pay will only increase by 58.72DT.</p>
+    </div>
+    <select id="selected">    <!-- this is yassin's work-->
+        <option value='Software Engineer'>Software Engineer</option>
+        <option value="Product Manager">Product Manager</option>
+        <option value="Graphic Designer">Graphic designer</option>
+        <option value="Data Analyst">Data Analyst</option>
+        <option value="Marketing Manager">Professor</option>
+        <option value="Sales Representative">Sales Representative</option> 
+        <option value="Project Manager">Project Manager</option>
+        <option value="Human Resources Manager">Human Resources Manager</option>
+        <option value="Accountant">Accountant</option>
+        <option value="UX Designer">UX Designer </option>
+        <option value="Financial Analyst">Financial Analyst</option>
+        <option value="Web Developer">Web Developer</option>
+        <option value="Operations Manager">Operations Manager</option>
+        <option value="Customer Service Representative">Customer Service Representative</option>
+        <option value="IT Manager">IT Manager</option>
+        <option value="Network Administrator">Network Administrator</option>
+        <option value="Content Writer"> Content Writer</option>
+        <option value="Art Director"> Art Director</option>
+        <option value="Mechanical Engineer"> Mechanical Engineer</option>
+        <option value="Social Media Manager"> Social Media Manager</option>
+        <option value="Executive Assistant"> Executive Assistant</option>
+        <option value="Data Scientist"> Data Scientist</option>
+        <option value="Digital Marketing Manager"> Digital Marketing Manager</option>
+        <option value="IT Support Specialist"> IT Support Specialist</option>
+        <option value="Artificial Intelligence Engineer"> Artificial Intelligence Engineer</option>
+    </select>
+    <p id="resi"></p>
+    <script type="text/javascript" src="payslip.js"></script>
+    <script src="jobsData.js"></script>
+</body>
+</html>

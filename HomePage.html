@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div id="but">
+      <button id="payslip" style = "position:relative;left:10px ; top:-5px " class="button-63" role="button">paycheck</button>    <!-- this is yassin's work-->
+        <button id="jobs"  style ="position:relative; left:667px; top:-70px " class="button-63" role="button">check jobs</button>
+    </div>
+   
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Insider</title>
+    <link rel="stylesheet" href="payslip.css">
+</head>
+<body>
+ 
+   <div> 
+     <h1 class="center"> Salaries in Tunisia</h1>
+    </div>
+    <div>
+        <img style = "position:relative; left:290px";   src="Opera Snapshot_2023-03-07_131014_www.paylab.com.png" />
+      </div>
+   <div> 
+    <p id="p1">The salary range of employees working in Tunisia is, by default, in the range of 774.00 TND (low salaries, employees' actual wages may be even lower) to 2,929.00 TND (high salaries, actual salaries can be even higher).
+
+        This is the total monthly salary including bonuses. Salaries can vary significantly within individual job positions. If you are interested in salaries for a specific position, participate in the survey.</p>
+    
+    </div>
+   
+   
+        <div>
+        <h2 class="center">Salary ranges</h2> 
+    </div>
+    <div>  <img src="Opera Snapshot_2023-03-07_131056_www.paylab.com.png"/></div>
+       <div>
+        <p id="p2">Distribution of employees in Tunisia into salary brackets in TND.</p>
+    </div>
+
+  
+
+<div><h2 class="center">Salaries by gender</h2></div>
+
+
+
+<div><img src="Opera Snapshot_2023-03-07_131118_www.paylab.com.png"/></div>
+
+<div><p id="p3">Comparison of the average salary of men and women in Tunisia (TND).</p></div>
+
+
+
+
+
+   <div> <h2 class="center">Salaries by age group</h2></div>
+  <div> <img src="Opera Snapshot_2023-03-07_133010_www.paylab.com.png"/></div> 
+   <div> <p id="p4">Average salary and range in Tunisia by age in TND.</p></div>
+
+
+
+
+   <script type="text/javascript" src="payslip.js"></script>          <!-- this is tarek's work-->
+   <script src="jobsData.js"></script>
+   <script type="text/javascript">
+    document.getElementById("jobs").onclick = function () {
+        location.href = "jobCheck.html";
+    };
+</script>
+<script type="text/javascript">
+    document.getElementById("payslip").onclick = function () {
+        location.href = "payslip2.html";
+    };
+</script>
+    
+
+</body>
+
+
+
+</html>   
